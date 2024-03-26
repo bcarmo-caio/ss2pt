@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Set Ariba SAP to Portuguese",
+  "version": "1.0.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://service.ariba.com/*",
+    "https://webassistant.enable-now.cloud.sap/*",
+    "https://help.sap.com/*",
+    "https://wshs.sap.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
