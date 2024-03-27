@@ -8,7 +8,8 @@
     "https://service.ariba.com/*",
     "https://webassistant.enable-now.cloud.sap/*",
     "https://help.sap.com/*",
-    "https://wshs.sap.com/*"
+    "https://wshs.sap.com/*",
+    "https://mu.ariba.com/*"
   ],
   "background": {
     "service_worker": "background.js"
